@@ -1,0 +1,85 @@
+*{
+ font-style: italic;   
+}
+/* bodyelements*/
+html{
+    font-size: 22px;
+    font-style:inherit;
+
+}
+body{
+    margin:auto;
+    background-color: rgb(253, 170, 93);
+    color:black;
+}
+header{
+    color:black;
+    font-size: 30px;
+    text-align: center;
+    border-style:groove;
+    border: 10px blackS solid;
+    border-radius: 50%;
+    background-color: coral;
+    
+}
+.navigator{
+    text-transform: capitalize;
+}
+
+.olist ol{ /*class level elements*/
+    list-style:upper-roman;
+}
+.list ul{
+    list-style: square;;
+}
+.add{
+    margin:100px;
+    align-items:start;
+    border:4px white dotted;
+    background-color: aqua;
+}
+.title{
+    text-align: center;
+}
+.squard{
+    text-align: center;
+
+}
+a{
+    color: brown;
+}
+a:hover{
+    color:blue;
+}
+figure{
+    color:crimson
+}
+footer{
+    color:darkblue;
+}
+form{
+    color:blueviolet;
+}
+button{
+    color:chocolate;
+    size: 20px;
+}
+fieldset{
+    color:black;
+    background-color: chocolate;
+    border: black double 10px;
+    
+}
+legend{
+    color: aliceblue;
+}
+.logo{
+    text-align: center;
+}
+textarea{
+    color: aquamarine;
+}
+.description{
+    color:blue;
+    
+}
